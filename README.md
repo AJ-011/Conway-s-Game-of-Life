@@ -81,42 +81,7 @@ Replace <input_file> with the path to a file that contains the initial grid stat
 Input files are text files where each line represents a row of the grid.
 Non-space characters are 'alive' cells, and space characters are 'dead' cells.
 
-Example <glider.txt>:
-\\\
-  #
-# #
- ##
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                              
-\\\
-
-
+Refer to files "glider.txt" and "acorn.txt" as examples of input files.
 
 ## Usage
 
@@ -128,7 +93,7 @@ Once the project is running, you can use the following key commands:
 
 
 
-# Implementation Details
+## Implementation Details
 
 The project uses multithreading to handle different aspects of the simulation:
 - Drawing the Grid: One thread is responsible for rendering the grid to the terminal.
